@@ -6,7 +6,7 @@
         <article>
             <h3 class="heading">Anugerah Sticker</h3>
             <p>Anugerah Sticker merupakan penyedia jasa dalam bidang pembuatan cutting sticker, printing sticker, digital printing, billboard, neon box, promo item, sandblast item. </p>
-            <footer><a class="btn" href="#">Tentang Anugerah Sticker</a></footer>
+            <footer><a class="btn" href="<?php echo base_url('about/read/'); ?>">Tentang Anugerah Sticker</a></footer>
         </article>
     </div>
 

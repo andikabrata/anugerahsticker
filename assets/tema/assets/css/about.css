@@ -1,0 +1,213 @@
+#about {
+	padding: 3% 0%;
+}
+
+#about .heading {
+	text-align: center;
+}
+
+#about .heading h2 {
+	font-family: "helvetica_ce_55_romanregular";
+}
+
+#about .heading h4 {
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+#about .heading p {
+	padding: 20px 0px;
+	font-size: 13px;
+	font-weight: bolder;
+	color: #555;
+}
+
+#about h2 {
+	color: #555;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+#about span {
+	color: #e73131;
+}
+
+#about .span2 {
+	color: black;
+	line-height: 2;
+}
+
+#about .col-md-8 {
+	margin-left: 16.66666667%;
+}
+
+.row .ab-sec {
+	margin-top: 30px;
+}
+
+.fadeInDown p {
+	width: 3%;
+	color: brown;
+}
+
+.line {
+	border: 1px solid #e73131;
+	width: 40%;
+	margin-left: 30%;
+}
+
+.col-md-6 .fadeInDown {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.col-md-6 strong {
+	font-size: 20px;
+}
+
+.col-md-6 p {
+	font-size: 15px;
+}
+
+.col-md-6 .fadeInUp {
+	padding-left: 70px;
+}
+
+/** banner section **/
+
+.banner_main {
+	background: #f0f0f0;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.banner_main span {
+	color: #e73131;
+}
+
+.banner_main h2 {
+	color: #555;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.banner_main .titlepage {
+	text-align: left;
+	padding: 0;
+}
+
+.banner_main .titlepage h2 {
+	color: #1e2426;
+	margin-bottom: 20px;
+	font-size: 36px;
+	line-height: 50px;
+}
+
+.banner_main .titlepage p {
+	color: #222122;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+
+.banner_main_text {
+	padding: 0px 10px 0px 20px;
+}
+
+.banner_main_img figure {
+	margin: 0;
+}
+
+.banner_main_img figure img {
+	width: 100%;
+}
+
+.titlepage {
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.titlepage h2 {
+	font-size: 42px;
+	color: #313131;
+	line-height: 60px;
+	font-weight: bold;
+	padding: 0;
+}
+
+.d_flex {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.padding_lert {
+	padding-left: 0;
+}
+
+.padding_right {
+	padding-right: 0;
+}
+
+.banner_main .heading {
+	text-align: center;
+}
+
+.line2 {
+	border: 1px solid #e73131;
+	width: 15%;
+	margin-left: 42%;
+}
+
+@media screen and (max-width: 978px) {
+	#about .heading h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#about .heading h4 {
+		font-size: small;
+	}
+
+	.col-md-6 .fadeInDown {
+		margin-top: 20px;
+	}
+
+	.col-md-6 .fadeInUp {
+		padding-left: 50px;
+	}
+
+	#about .col-md-6 {
+		text-align: center;
+	}
+
+	.banner_main h2 {
+		font-size: 20px;
+	}
+
+	.line2 {
+		width: 30%;
+		margin-left: 31%;
+	}
+
+	.container-fluid .banner_main_text h2 {
+		font-size: 20px;
+		line-height: 1.5;
+		text-align: center;
+	}
+
+	.banner_main .text_desc .text {
+		font-size: 20px;
+		line-height: 1.5;
+		text-align: left;
+	}
+
+	.banner_main .text_desc2 h2 {
+		font-size: 20px;
+		line-height: 1.5;
+		text-align: right;
+	}
+}

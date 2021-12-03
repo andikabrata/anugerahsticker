@@ -1,35 +1,27 @@
 <?php 
+
 ?>
 
 <div class="wrapper row2">
     <section class="hoc container clear"> 
         <div class="sectiontitle">
-            <p class="nospace font-xs">Mollis eu commodo eu dui quisque</p>
-            <h6 class="heading">Ut ipsum vivamus tincidunt</h6>
+            <h6 class="heading">Video Katalog Kami</h6>
         </div>
-        <ul class="nospace group center">
-            <li class="one_third first">
-                <article><a href="#"><i class="fa fa-camera-retro fa-5x btmspace-50"></i></a>
-                <h6 class="heading">Tincidunt enim etiam</h6>
-                <p class="btmspace-30">Tellus lacus tempor in pharetra id imperdiet sit amet enim suspendisse potenti fusce ornare [&hellip;]</p>
-                <footer><a class="btn" href="#">Read More</a></footer>
-                </article>
-            </li>
-            <li class="one_third">
-                <article><a href="#"><i class="fa fa-camera-retro fa-5x btmspace-50"></i></a>
-                <h6 class="heading">Congue nulla facilisi</h6>
-                <p class="btmspace-30">Laoreet ligula phasellus pede phasellus faucibus enim quis lacus praesent ipsum vulputate [&hellip;]</p>
-                <footer><a class="btn" href="#">Read More</a></footer>
-                </article>
-            </li>
-            <li class="one_third">
-                <article><a href="#"><i class="fa fa-camera-retro fa-5x btmspace-50"></i></a>
-                <h6 class="heading">Nunc congue curabitur</h6>
-                <p class="btmspace-30">Vitae lacinia eu interdum tempus massa in sodales purus non nisi cras porta lacinia ut [&hellip;]</p>
-                <footer><a class="btn" href="#">Read More</a></footer>
-                </article>
-            </li>
-        </ul>
+        <div class="row tm-catalog-item-list">
+            <?php foreach($video as $video) { ?>
+                <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                    <div class="position-relative tm-thumbnail-container">
+                        <img src="<?php echo base_url('assets/upload/image/' . $video->thumbnail  . $video->file_thumbnail); ?>" alt="Image" class="img-fluid tm-catalog-item-img">    
+                        <a href="<?php echo base_url('video/read/' . $video->nama_param_link); ?>" class="position-absolute tm-img-overlay">
+                            <i class="fa fa-play tm-overlay-icon"></i>
+                        </a>
+                    </div>    
+                    <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                        <h3 class="tm-text-primary mb-3 tm-catalog-item-title"><?php echo $video->keterangan_video?></h3>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
     </section>
 </div>
 

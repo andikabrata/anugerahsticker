@@ -9,6 +9,7 @@ class Home extends CI_Controller {
         $this->load->model('Menu_Model');
         $this->load->model('Layanan_Model');
         $this->load->model('Gallery_Model');
+        $this->load->model('Video_Model');
     }
 
     public function index(){
@@ -17,6 +18,7 @@ class Home extends CI_Controller {
         $sub_gallery = $this->Menu_Model->submenu_gallery();
         $layanan = $this->Layanan_Model->layanan();
         $gallery = $this->Gallery_Model->gallery();
+        $video =  $this->Video_Model->video();
 
         //Pagination
         $jumlah_data = $this->Gallery_Model->jumlah_data();
@@ -33,7 +35,8 @@ class Home extends CI_Controller {
             'sub_gallery' => $sub_gallery,
             'layanan' => $layanan,
             'gallery' => $gallery,
-            'user'=> $this->Gallery_Model->data($config['per_page'],$from),
+            'user' => $this->Gallery_Model->data($config['per_page'],$from),
+            'video' => $video,
 			'isi' => 'home/list'
         );
 

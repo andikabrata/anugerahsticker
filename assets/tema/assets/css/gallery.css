@@ -1378,3 +1378,92 @@
 .w3-hover-border-pale-blue:hover {
 	border-color: #e7ffff !important;
 }
+
+/* CSS Untuk Halaman Gallery */
+.container-fluid .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.2s ease;
+	background-color: #008cba;
+}
+
+.container-fluid {
+	width: 94%;
+	margin: 0px auto;
+	max-width: 94%;
+}
+
+.card {
+	border: 0;
+}
+.card-pin:hover .overlay {
+	opacity: 0.5;
+	border: 5px solid #f3f3f3;
+	transition: ease 0.2s;
+	background-color: #000000;
+	cursor: zoom-in;
+}
+
+.card-pin:hover .card-title {
+	color: #ffffff;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.card-pin:hover .more a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.card-pin:hover .download a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.card-columns {
+	-webkit-column-count: 5;
+	column-count: 4;
+	-webkit-column-gap: 1.25rem;
+	column-gap: 1.25rem;
+	orphans: 1;
+	widows: 1;
+}
+
+.gallery {
+	margin-top: 30px;
+}
+
+.gallery span {
+	color: red;
+}
+
+.gallery .heading {
+	text-align: center;
+}
+
+.gallery .heading .line {
+	margin-left: 610px;
+	width: 17%;
+}
+
+.container-fluid {
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 978px) {
+	.gallery .heading h2 {
+		font-size: 20px;
+	}
+
+	.gallery .heading .line {
+		margin-left: 100px;
+		width: 50%;
+	}
+}

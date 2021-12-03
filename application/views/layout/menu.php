@@ -1,27 +1,26 @@
 <?php
-    $sub_layanan = $this->Menu_Model->submenu_layanan();
-    $sub_gallery = $this->Menu_Model->submenu_gallery();
+
 ?>
 <div class="main-menu">
     <span id="navwrapper" class="hoc clear"> 
         <nav id="mainav">
             <ul class="clear">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="<?php echo base_url() ?>">Home</a></li>
                 <li>
-                    <a class="drop" href="#">Layanan</a>
-                    <ul>
+                    <a class="drop" href="<?php echo base_url('layanan/read/') ?>">Layanan</a>
+                    <!-- <ul>
                         <?php foreach($sub_layanan as $sub_layanan) { ?>
                             <li><a href="pages/gallery.html"><?php echo $sub_layanan->nama_submenu ?></a></li>
                         <?php } ?>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li>
-                    <a class="drop" href="#">Gallery</a>
-                    <ul>
+                    <a class="drop" href="<?php echo base_url('gallery/read/') ?>">Gallery</a>
+                    <!-- <ul>
                         <?php foreach($sub_gallery as $sub_gallery) { ?>
                             <li><a href="pages/gallery.html"><?php echo $sub_gallery->nama_submenu ?></a></li>
                         <?php } ?>
-                    </ul>
+                    </ul> -->
                 </li>
             </ul>
         </nav>

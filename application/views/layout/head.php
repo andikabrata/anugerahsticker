@@ -12,7 +12,7 @@
     <meta name="keywords" content="Anugerah Sticker merupakan penyedia jasa dalam bidang pembuatan cutting sticker">
     <meta name="author" content="Anugerah Sticker Developer">
     <!-- icon -->
-    <link rel="shortcut icon" href="<?php base_url() ?>assets/images/logo.png">
+    <link rel="shortcut icon" href="<?php echo $this->website->icon(); ?>">
     <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Plugin css -->
@@ -31,6 +31,9 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/tema/assets/css/framework.css" media="all" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/tema/assets/css/layout.css" media="all" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/tema/assets/css/gallery.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/tema/assets/css/video.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/tema/assets/css/about.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/tema/assets/css/layanan.css" media="all" />
     <!-- DataTables CSS -->
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/plugins/datatables/dataTables.bootstrap4.css">
     <!-- Select2 -->

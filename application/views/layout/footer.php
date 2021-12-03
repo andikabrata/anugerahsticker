@@ -66,3 +66,10 @@
 <script src="<?php echo base_url() ?>assets/tema/assets/js/jquery.min.js"></script>
 <script src="<?php echo base_url() ?>assets/tema/assets/js/jquery.backtotop.js"></script>
 <script src="<?php echo base_url() ?>assets/tema/assets/js/jquery.mobilemenu.js"></script>
+
+<!-- Java Script untuk Pre-Loader -->
+<script type="text/javascript" src="<?php echo base_url() ?>assets/tema/assets/js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets/tema/assets/js/jquery.counterup.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets/tema/assets/js/swiper.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets/tema/assets/js/lightcase.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets/tema/assets/js/custom.js"></script>
