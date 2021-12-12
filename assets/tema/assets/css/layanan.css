@@ -108,7 +108,16 @@
 
 @media screen and (max-width: 978px) {
 	.collection_section_2 {
-		width: 100%;
+		width: 70%;
+		padding-left: 20px;
+	}
+
+	.collection_section_2 .new_bt {
+		font-size: 10px;
+	}
+
+	.collection_section_2 .seemore_bt {
+		font-size: 10px;
 	}
 
 	.star_icon {

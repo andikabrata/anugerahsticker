@@ -7,10 +7,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Anugerah Sticker</title>
+    <title>Anugerah Sticker | Jasa Cutting Sticker Termurah !!!</title>
     <meta name="description" content="Anugerah Sticker merupakan penyedia jasa dalam bidang pembuatan cutting sticker, printing sticker, digital printing, billboard, neon box, promo item, sandblast item.">
     <meta name="keywords" content="Anugerah Sticker merupakan penyedia jasa dalam bidang pembuatan cutting sticker">
     <meta name="author" content="Anugerah Sticker Developer">
+    <meta name="robots" content="index, follow">
     <!-- icon -->
     <link rel="shortcut icon" href="<?php echo $this->website->icon(); ?>">
     <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
@@ -45,4 +46,14 @@
             margin-bottom: 15px;
         }
     </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CEHE29JQPB"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CEHE29JQPB');
+    </script>
 </head>

@@ -28,7 +28,7 @@ $config['base_url'] .= "://".$_SERVER['HTTP_HOST'];
 $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
 
 //SETINGAN UNTUK PUBLISH
-// $config['base_url'] = 'http://anugerahsticker.epizy.com/';
+// $config['base_url'] = 'https://anugerahsticker8.com/';
 
 /*
 |--------------------------------------------------------------------------

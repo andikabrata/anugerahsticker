@@ -99,10 +99,10 @@ $db['default'] = array(
 // SETTINGAN UNTUK PUBLISH
 // $db['default'] = array(
 // 	'dsn'	=> '',
-// 	'hostname' => 'sql108.epizy.com',
-// 	'username' => 'epiz_30330137',
-// 	'password' => 'NJ6JCEzZ97',
-// 	'database' => 'epiz_30330137_db_websticker',
+// 	'hostname' => 'localhost',
+// 	'username' => 'anuger27_anugerahsticker8',
+// 	'password' => 'anugerahsticker8',
+// 	'database' => 'anuger27_anugerahsticker8',
 // 	'dbdriver' => 'mysqli',
 // 	'dbprefix' => '',
 // 	'pconnect' => FALSE,
