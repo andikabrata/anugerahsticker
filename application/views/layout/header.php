@@ -16,8 +16,8 @@
 <div class="bgded overlay" style="background-image:url('<?php echo base_url('assets/images/02.png');?>'); background-attachment: fixed;"> 
   <header id="header" class="hoc clear"> 
     <div id="logo" class="one_quarter first">
-      <h1><a href="<?php echo base_url() ?>">Anugerah</a></h1>
-      <p>CUTTING STICKER</p>
+      <h1><a href="<?php echo base_url() ?>">Cutting Sticker</a></h1>
+      <h5>Anugerah Sticker</h5>
     </div>
     <div class="three_quarter">
       <ul class="nospace clear">

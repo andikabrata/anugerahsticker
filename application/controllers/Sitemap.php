@@ -13,9 +13,9 @@ class Sitemap extends CI_Controller {
     {
         $data['urls'] = array(
             base_url('head'),
-            base_url('layanan'),
-            base_url('gallery'),
-            base_url('about'),
+            base_url('layanan/read'),
+            base_url('gallery/read'),
+            base_url('about/read'),
             base_url('video/read/printing-sticker'),
             base_url('video/read/coming-soon')
         );

@@ -16,7 +16,7 @@
       <div class="row col-md-12 ab-sec">
         <div class="col-md-6">
           <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span><b>A</b></span><span class="span2">nugerah Sticker</span></h3>
-          <p><span><strong>A</strong></span><span class="span2">nugerah Sticker merupakan penyedia jasa dalam bidang pembuatan cutting sticker, printing sticker, digital printing, billboard, neon box, promo item, sandblast item.
+          <p><span><strong>A</strong></span><span class="span2">nugerah Sticker merupakan penyedia jasa dalam bidang pembuatan <b>cutting sticker</b>, <b>printing sticker</b>, <b>digital printing</b>, <b>billboard</b>,<b> neon box</b>, <b>promo item</b>, <b>sandblast item</b>.
                Pembuatan sticker bisa di custom sesuai dengan keinginan customer. </span></p>
         </div>
         <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">

@@ -7,7 +7,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Anugerah Sticker | Jasa Cutting Sticker Termurah !!!</title>
+    <title>Cutting Sticker - Anugerah Sticker 8</title>
     <meta name="description" content="Anugerah Sticker merupakan penyedia jasa dalam bidang pembuatan cutting sticker, printing sticker, digital printing, billboard, neon box, promo item, sandblast item.">
     <meta name="keywords" content="Anugerah Sticker merupakan penyedia jasa dalam bidang pembuatan cutting sticker">
     <meta name="author" content="Anugerah Sticker Developer">
